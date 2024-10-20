@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name=" collection of all test cases">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="Sec20TestNGFramework.test"/>
+      <class name="Sec20TestNGFramework.test2"/>
+      
+      <class name="Sec20TestNGFramework.test3">
+       <methods>
+      <include name="WebLogin"/>
+      </methods>
+      </class>
+      
+      <class name="Sec20TestNGFramework.test4">
+       <methods>
+      <exclude name="Dev"/>
+      </methods>
+      </class>
+      
+    </classes>
+  </test> <!-- Test -->
+  
+  <test  name="Test4">
+    <classes>
+    
+      <class name="Sec20TestNGFramework.test4">
+   <methods>
+      <exclude name="testerA.*"/>
+      </methods>
+      </class>
+    </classes>
+  </test> <!-- Test -->  
+</suite> <!-- Suite -->

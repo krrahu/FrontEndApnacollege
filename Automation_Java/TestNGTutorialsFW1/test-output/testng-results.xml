@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="1" total="12" passed="10">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TestSuite" duration-ms="307" started-at="2021-02-07T01:42:00 IST" finished-at="2021-02-07T01:42:01 IST">
+    <groups>
+      <group name="smoke">
+        <method signature="Automobile.ASportsCar()[pri:0, instance:Basic.Automobile@61f8bee4]" name="ASportsCar" class="Basic.Automobile"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test name="Automobilecompany" duration-ms="128" started-at="2021-02-07T01:42:00 IST" finished-at="2021-02-07T01:42:00 IST">
+      <class name="Basic.Automobile">
+        <test-method status="PASS" signature="ASportsCar()[pri:0, instance:Basic.Automobile@61f8bee4]" name="ASportsCar" duration-ms="17" started-at="2021-02-07T01:42:00 IST" finished-at="2021-02-07T01:42:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ASportsCar -->
+        <test-method status="PASS" signature="CTruck(java.lang.String)[pri:0, instance:Basic.Automobile@61f8bee4]" name="CTruck" duration-ms="3" started-at="2021-02-07T01:42:00 IST" finished-at="2021-02-07T01:42:00 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[www.Automobile.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CTruck -->
+        <test-method status="FAIL" signature="Edummy()[pri:0, instance:Basic.Automobile@61f8bee4]" name="Edummy" duration-ms="8" started-at="2021-02-07T01:42:00 IST" finished-at="2021-02-07T01:42:00 IST">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at org.testng.Assert.assertTrue(Assert.java:55)
+at Basic.Automobile.Edummy(Automobile.java:51)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Edummy -->
+        <test-method status="PASS" signature="DSportsBike()[pri:0, instance:Basic.Automobile@61f8bee4]" name="DSportsBike" duration-ms="2" started-at="2021-02-07T01:42:00 IST" depends-on-methods="Basic.Automobile.CTruck, Basic.Automobile.ASportsCar" finished-at="2021-02-07T01:42:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DSportsBike -->
+      </class> <!-- Basic.Automobile -->
+    </test> <!-- Automobilecompany -->
+    <test name="humantypes" duration-ms="49" started-at="2021-02-07T01:42:01 IST" finished-at="2021-02-07T01:42:01 IST">
+      <class name="Basic.Person">
+        <test-method status="PASS" signature="African()[pri:0, instance:Basic.Person@1f554b06]" name="African" duration-ms="3" started-at="2021-02-07T01:42:01 IST" finished-at="2021-02-07T01:42:01 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- African -->
+        <test-method status="PASS" signature="Americian()[pri:0, instance:Basic.Person@1f554b06]" name="Americian" duration-ms="3" started-at="2021-02-07T01:42:01 IST" finished-at="2021-02-07T01:42:01 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Americian -->
+        <test-method status="PASS" signature="Asian(java.lang.String, java.lang.String)[pri:0, instance:Basic.Person@1f554b06]" name="Asian" duration-ms="2" started-at="2021-02-07T01:42:01 IST" finished-at="2021-02-07T01:42:01 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[www.Person.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[rahulk]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Asian -->
+        <test-method status="PASS" signature="Europians()[pri:0, instance:Basic.Person@1f554b06]" name="Europians" duration-ms="1" started-at="2021-02-07T01:42:01 IST" finished-at="2021-02-07T01:42:01 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Europians -->
+        <test-method status="PASS" signature="logindetails(java.lang.String, java.lang.String)[pri:0, instance:Basic.Person@1f554b06]" name="logindetails" duration-ms="4" started-at="2021-02-07T01:42:01 IST" data-provider="GetData" finished-at="2021-02-07T01:42:01 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testgood]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[PWD]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logindetails -->
+        <test-method status="PASS" signature="logindetails(java.lang.String, java.lang.String)[pri:0, instance:Basic.Person@1f554b06]" name="logindetails" duration-ms="3" started-at="2021-02-07T01:42:01 IST" data-provider="GetData" finished-at="2021-02-07T01:42:01 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testNo]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[PWD12]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logindetails -->
+        <test-method status="PASS" signature="logindetails(java.lang.String, java.lang.String)[pri:0, instance:Basic.Person@1f554b06]" name="logindetails" duration-ms="3" started-at="2021-02-07T01:42:01 IST" data-provider="GetData" finished-at="2021-02-07T01:42:01 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testfraud]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[PWD123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logindetails -->
+      </class> <!-- Basic.Person -->
+    </test> <!-- humantypes -->
+  </suite> <!-- TestSuite -->
+</testng-results>

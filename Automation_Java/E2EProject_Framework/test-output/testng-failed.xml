@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="Academy.E2E_Framework.Listeners"/>
+  </listeners>
+  <test thread-count="5" name="ValidateTitles(failed)">
+    <classes>
+      <class name="Academy.E2E_Framework.ValidateTitles">
+        <methods>
+          <include name="basePageNavigation"/>
+          <include name="Openbrowser"/>
+          <include name="closebrowser"/>
+        </methods>
+      </class> <!-- Academy.E2E_Framework.ValidateTitles -->
+    </classes>
+  </test> <!-- ValidateTitles(failed) -->
+</suite> <!-- Failed suite [Suite] -->

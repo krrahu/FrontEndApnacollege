@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name=" All Test cases">
+  <test  name="Regression test cases ">
+  <groups>
+  <run>
+  <include name="smoke">
+  </include>
+  </run>
+  
+    </groups>
+  
+   <classes>
+   <class name="Sec20TestNGFramework.test"/>
+      <class name="Sec20TestNGFramework.test2"/>
+       <class name="Sec20TestNGFramework.test3"/>
+      <class name="Sec20TestNGFramework.test4"/>
+ <class name="Sec20TestNGFramework.Automobile"/>
+  </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

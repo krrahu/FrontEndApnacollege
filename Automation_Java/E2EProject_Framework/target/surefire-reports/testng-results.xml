@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="63278" started-at="2021-02-14T13:54:47Z" finished-at="2021-02-14T13:55:50Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="63278" started-at="2021-02-14T13:54:47Z" finished-at="2021-02-14T13:55:50Z">
+      <class name="Academy.E2E_Framework.ValidateNavigation">
+        <test-method status="PASS" signature="Openbrowser()[pri:0, instance:Academy.E2E_Framework.ValidateNavigation@2dc54ad4]" name="Openbrowser" is-config="true" duration-ms="14720" started-at="2021-02-14T19:24:47Z" finished-at="2021-02-14T19:25:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Openbrowser -->
+        <test-method status="PASS" signature="Openbrowser()[pri:0, instance:Academy.E2E_Framework.ValidateTitles@4659191b]" name="Openbrowser" is-config="true" duration-ms="16297" started-at="2021-02-14T19:25:01Z" finished-at="2021-02-14T19:25:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Openbrowser -->
+        <test-method status="PASS" signature="basePageNavigation()[pri:0, instance:Academy.E2E_Framework.ValidateNavigation@2dc54ad4]" name="basePageNavigation" duration-ms="76" started-at="2021-02-14T19:25:18Z" finished-at="2021-02-14T19:25:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+      </class> <!-- Academy.E2E_Framework.ValidateNavigation -->
+      <class name="Academy.E2E_Framework.HomePage">
+        <test-method status="PASS" signature="basePageNavigation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Academy.E2E_Framework.HomePage@27462a88]" name="basePageNavigation" duration-ms="14178" started-at="2021-02-14T19:25:18Z" data-provider="getdata" finished-at="2021-02-14T19:25:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nonrestricted@test.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+            <param index="2">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method status="PASS" signature="basePageNavigation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Academy.E2E_Framework.HomePage@27462a88]" name="basePageNavigation" duration-ms="13808" started-at="2021-02-14T19:25:32Z" data-provider="getdata" finished-at="2021-02-14T19:25:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[restricted@test.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+            <param index="2">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method status="PASS" signature="closebrowser()[pri:0, instance:Academy.E2E_Framework.HomePage@27462a88]" name="closebrowser" is-config="true" duration-ms="1072" started-at="2021-02-14T19:25:46Z" finished-at="2021-02-14T19:25:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+        <test-method status="PASS" signature="closebrowser()[pri:0, instance:Academy.E2E_Framework.ValidateNavigation@2dc54ad4]" name="closebrowser" is-config="true" duration-ms="1383" started-at="2021-02-14T19:25:47Z" finished-at="2021-02-14T19:25:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+        <test-method status="PASS" signature="closebrowser()[pri:0, instance:Academy.E2E_Framework.ValidateTitles@4659191b]" name="closebrowser" is-config="true" duration-ms="1673" started-at="2021-02-14T19:25:48Z" finished-at="2021-02-14T19:25:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- Academy.E2E_Framework.HomePage -->
+      <class name="Academy.E2E_Framework.ValidateTitles">
+        <test-method status="PASS" signature="basePageNavigation()[pri:0, instance:Academy.E2E_Framework.ValidateTitles@4659191b]" name="basePageNavigation" duration-ms="57" started-at="2021-02-14T19:25:46Z" finished-at="2021-02-14T19:25:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+      </class> <!-- Academy.E2E_Framework.ValidateTitles -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;Basic&apos; to &apos;Sec20TestNGFramework&apos;&#x0D;&#x0A;- Original project: &apos;TestNGTutorials&apos;&#x0D;&#x0A;- Original element: &apos;TestNGTutorials/src/Basic&apos;&#x0D;&#x0A;- Renamed element: &apos;TestNGTutorials/src/Sec20TestNGFramework&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;Basic&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;Basic" name="Sec20TestNGFramework" qualified="false" references="true" stamp="1612678418479" textual="false" version="1.0"/>
+</session>

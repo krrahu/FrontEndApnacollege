@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="TestSuite">
+<listeners>
+<listener class-name="Sec20TestNGFramework.Listeners"/>
+</listeners>
+  <test name="Automobilecompany">
+  
+  <parameter name="URL" value="www.Automobile.com"> 
+
+ </parameter>
+    <classes>
+      <class name="Sec20TestNGFramework.Automobile"/>
+    </classes>
+  </test> 
+  
+  <test name="humantypes">
+  
+  <parameter name="URL" value="www.Person.com"/> 
+    <parameter name="UN" value="rahulk"/> 
+   <classes>
+      <class name="Sec20TestNGFramework.Person"/>
+    </classes>
+  </test>   
+</suite>
